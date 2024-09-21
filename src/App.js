@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css';
 
 function App() {
 
@@ -17,10 +18,10 @@ function App() {
   };
 
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+    <div>
       <h1>Contador: {count}</h1>
-      <button onClick={increment}>Incrementar</button>
-      <button onClick={decrement}>Decrementar</button>
+      <button onClick={increment}>Aumentar</button>
+      <button onClick={decrement}>Diminuir</button>
       <button onClick={reset}>Resetar</button>
     </div>
   );
