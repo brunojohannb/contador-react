@@ -47,21 +47,21 @@ button {
 
 }
 
-button:nth-child() {
+.resetar {
+
+  background-color: #757575;
+  color: white;
+
+}
+
+.aumentar {
 
   background-color: #4caf50;
   color: white;
 
 }
 
-button:nth-child(2) {
-
-  background-color: #4caf50;
-  color: white;
-
-}
-
-button:nth-child(3) {
+.diminuir {
   background-color: #f44336;
   color: white;
 

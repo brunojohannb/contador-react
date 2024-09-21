@@ -20,9 +20,9 @@ function App() {
   return (
     <div>
       <h1>Contador: {count}</h1>
-      <button onClick={increment}>Aumentar</button>
-      <button onClick={decrement}>Diminuir</button>
-      <button onClick={reset}>Resetar</button>
+      <button className='aumentar' onClick={increment}>Aumentar</button>
+      <button className='diminuir' onClick={decrement}>Diminuir</button>
+      <button className='resetar' onClick={reset}>Resetar</button>
     </div>
   );
 
